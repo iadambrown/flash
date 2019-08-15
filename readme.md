@@ -1,26 +1,21 @@
-#### Project composer.json:
-```
-"autoload": {
-    "psr-4": {
-        "App\\": "app/",
-        "iAdamBrown\\Flash\\": "packages/iadambrown/flash/src"
-    },
-    "files": [
-        "packages/iadambrown/flash/src/functions.php"
-    ]
-},
-```
+## Simple Flash Package
 
-##### (IF using via Composer/Packagist) 
-####Package composer.json (then remove above):
+#### Installation:
+
+composer.json
 ```
-"autoload": {
-    "psr-0": {
-        "iAdamBrown\\Flash": "src/"
-    },
-    "files": [
-        "src/functions.php"
-    ]
+"require": {
+  "iadambrown/flash": "dev-master"
 },
 
+...
+
+"repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/iadambrown/flash.git"
+  }
+],
 ```
+
+[//]: # (@todo: https://poser.pugx.org)
