@@ -1,0 +1,50 @@
+{
+    "name": "iadambrown/flash",
+    "homepage": "https://github.com/iadambrown/laravel-helpers",
+    "description": "Simple flash messaging component, modelled after laracasts/flash.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Brown",
+            "email": "iadambrown@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "~5.8"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "fzaninotto/faker": "^1.8",
+        "illuminate/support": "5.7.*|5.8.*",
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iAdamBrown\\Flash\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "iAdamBrown\\Flash\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "iAdamBrown\\Flash\\FlashServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
