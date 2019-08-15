@@ -22,10 +22,10 @@
     },
     "autoload": {
         "psr-4": {
-            "iAdamBrown\\Flash\\": "src/"
+            "iAdamBrown\\Flash\\": "src/iAdamBrown/Flash"
         },
         "files": [
-            "src/functions.php"
+            "src/iAdamBrown/Flash/functions.php"
         ]
     },
     "autoload-dev": {
@@ -39,12 +39,15 @@
     "config": {
         "sort-packages": true
     },
+    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
                 "iAdamBrown\\Flash\\FlashServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Flash": "iAdamBrown\\Flash\\Flash"
+            }
         }
-    },
-    "minimum-stability": "stable"
+    }
 }

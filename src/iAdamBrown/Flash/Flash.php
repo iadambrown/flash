@@ -1,4 +1,5 @@
 <?php
+
 namespace iAdamBrown\Flash;
 
 use Illuminate\Support\Facades\Facade;
