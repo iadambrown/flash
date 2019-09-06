@@ -1,14 +1,16 @@
-## Simple Flash Package, originally from laracasts/flash
+## Simple Flash Package
+
+<p>Originally modelled after laracasts/flash</p>
 
 #### Installation:
 
-composer.json
+<p>composer.json</p>
 ```
 "require": {
   "iadambrown/flash": "dev-master"
 },
 
-...
+<p>...</p>
 
 "repositories": [
   {
