@@ -5,6 +5,7 @@
 #### Installation:
 
 <p>composer.json</p>
+
 ```
 "require": {
   "iadambrown/flash": "dev-master"
