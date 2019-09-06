@@ -1,4 +1,4 @@
-## Simple Flash Package
+## Simple Flash Package, originally from laracasts/flash
 
 #### Installation:
 
