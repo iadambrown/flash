@@ -10,7 +10,7 @@
   "iadambrown/flash": "dev-master"
 },
 
-<p>...</p>
+...
 
 "repositories": [
   {
