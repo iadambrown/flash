@@ -10,19 +10,18 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "6.0"
+        "php": "^7.2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
         "fzaninotto/faker": "^1.8",
-        "illuminate/support": "5.7.*|5.8.*",
+        "illuminate/support": "6.0",
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "iAdamBrown\\Flash\\": "src/iAdamBrown/Flash"
+            "iAdamBrown\\Flash\\": "src"
         },
         "files": [
             "src/iAdamBrown/Flash/functions.php"
